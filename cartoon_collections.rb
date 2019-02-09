@@ -5,11 +5,11 @@ def roll_call_dwarves(dwarves_array)
 end
 
 def summon_captain_planet(planeteer_array) # code an argument here
-  planeteer_array.collect {|element| element.captialize + "!"}
+  planeteer_array.collect {|element| element.captialize! + "!"}
 end
 
-def long_planeteer_calls# code an argument here
-  # Your code here
+def long_planeteer_calls(calls_array)  # code an argument here
+  calls_array.each do {
 end
 
 def find_the_cheese# code an argument here
