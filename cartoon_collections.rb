@@ -21,4 +21,5 @@ def find_the_cheese(string_array) #code an argument here
     return true
   else
     return false
+  end
 end
